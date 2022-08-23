@@ -1,0 +1,87 @@
+.questionBox {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #262626;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 500px;
+    max-height:100px;
+    color:white;
+    flex : 1;
+  }
+  
+  .questionBox-body {
+    display:flex;
+    flex-direction: row;
+    align-items:baseline;
+    height: 60px;
+  }
+  .questionBox:hover {
+    border: 1px solid rgb(175, 175, 175);
+    background-color: #251307;
+  }
+  
+  .questionBox-info {
+    display: flex;
+    align-items: center;
+    width:90%;
+    
+  }
+  
+  .questionBox-info > h5 {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: large;
+    background-color: black;
+    border-radius: 8px;
+    width:100%;
+    padding-left: 10px;
+  }
+  
+  .questionBox-quora {
+    display: flex;
+    margin-top: 8px;
+  }
+
+  .questionBox-avatar{
+    margin-right: 15px;
+    flex:0.3
+  }
+
+  .questionBox-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-between;
+    min-width: fit-content;
+   
+    
+  }
+  .questionBox-footer-item{
+    padding :2px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+  }
+
+  .questionBox-footer-item > span{
+      vertical-align: middle;
+      display: inline-block;
+  }
+
+  .questionBox-footer-item:hover{
+    background-color: gray;
+    border-radius: 10px;
+  
+  }
+  .material-icons.md-12 { 
+
+    font-size: 12px;
+  }

@@ -1,0 +1,44 @@
+.answerLeftPanelList {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.answerLeftPanelListHeader{
+  
+  border-bottom: 0.1px white solid;
+  margin : 0px;
+  padding:0px;
+}
+
+.answerLeftPanelListHeader > h4{
+ color:red;
+ margin-left:10px;
+}
+
+
+
+.answerLeftPanelListItem {
+    display: flex;
+    margin-top: 2px;
+    cursor: pointer;
+    align-content: center;
+    color:white;
+    height: 40px;
+    
+  }
+
+.answerLeftPanelListItem > p{
+  font-size: small;
+  margin-left: 10px;
+}
+  
+  .answerLeftPanelListItem:hover {
+    background-color: #393433 ;
+  
+  }
+  .answerLeftPanel {
+    margin-right: 30px;
+    padding-left: 30px;
+    flex: 1;
+  }

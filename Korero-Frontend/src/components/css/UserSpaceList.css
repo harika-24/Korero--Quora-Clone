@@ -1,0 +1,64 @@
+.UserSpaceList {
+    display: flex;
+    flex-direction: column;
+  }
+  .UserSpace {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2px;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color:white;
+    min-height: 40px;
+  }
+  
+  .UserSpace:hover {
+    background: #393433 ;
+    
+  }
+  .UserSpace > img {
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 3px;
+  }
+  
+  .UserSpace > .MuiSvgIcon-root {
+    font-size: medium;
+    margin-left: 20px;
+  }
+  .UserSpace > p {
+    margin-left: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  
+  .UserSpace > .text {
+    margin-left: 23px;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .material-icons.md-16 { 
+    font-size: 24px; 
+    align-items: center;
+    }
+
+    hr {
+      color:white;
+      height: 2px;
+    }
+   
+
+    .UserSpaceList > span
+    {
+      text-align: center;
+      color: white;
+      margin-top: 0px;
+    }
+
+    .UserSpaceList > span:hover {
+      color: red;
+    }

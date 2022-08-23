@@ -1,0 +1,61 @@
+
+
+
+
+.Korero-about{
+
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    max-width: 1000px;
+    margin-top: 90px;
+  }
+
+  .carousel-inner >.carousel-item > img {
+    width: 400px !important;
+    height : 1
+  }
+  .carousel-inner {
+    background-color:#d3d3d3;
+  }
+  .carousel-caption{
+    left: 40%;
+    background-color: black;
+    color : white; 
+    width :400px;
+    border-radius :15px; 
+}
+.carousel{
+    max-width: 700px;
+}
+
+h4 {
+    text-align:justify;
+}
+
+.carousel-caption > h4{
+    text-align: center;
+}
+
+.carousel-caption > h3{
+    text-align: center;
+}
+.carousel-div{
+    margin-left:15%;
+    margin-right: 15%;
+    display: block;
+    align-content:center;
+    justify-content: center;
+    text-align: center;
+}
+.Korero-about >div > h3 {
+    color : red;
+}
+.Korero-about >div > h4 {
+    color : white;
+    font-family: 'Ubuntu',serif;
+}
+
+
+
+

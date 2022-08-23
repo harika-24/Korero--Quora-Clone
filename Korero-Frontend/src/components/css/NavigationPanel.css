@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.navPanel {
+  display: flex;
+  align-items: center;
+  background-color : #262626;
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
+  justify-content: center;
+  padding: 3px;
+  max-height: 50px;
+}
+
+.navPanel-content {
+  display: flex;
+
+  
+}
+
+.navPanel-button {
+  color: red;
+  min-width:100px !important;
+  
+}
+
+
+
+.navPanel-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.navPanel-icon {
+  padding: 15px;
+  cursor: pointer;
+  color: white;
+  align-items: center;
+  margin :0px
+  
+}
+
+.navPanel-icon:hover {
+  color: red;
+  border-radius: 5px;
+}
+
+.navPanel-icon > .MuiSvgIcon-root {
+  color: white;
+  font-size: xx-large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navPanel-icon:hover > .MuiSvgIcon-root {
+  color: red;
+  border: none;
+}
+
+.navPanel-icon:focus > .MuiSvgIcon-root{
+  color: red;
+}
+
+
+.navPanel-input {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.navPanel-input > input {
+  background-color: black;
+  outline: none;
+  border: none;
+  color: rgb(49, 49, 49);
+}
+
+.navPanel-input >  input:hover {
+      border-color: blue;
+}
+
+.navPanel input:hover{
+  border-color: blue;
+}
+
+.navPanel-input > .MuiSvgIcon-root {
+  color:gray;
+  border: none;
+}
+
+
+.navPanel-Rem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  margin-left: 25px;
+}
+
+
+.navPanel-Rem > Avatar:hover{
+  cursor:grab;
+}
+.navPanel-Rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: gray;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.navPanel-Rem > .MuiSvgIcon-root:hover {
+  color: #000;
+}
+
+.navPanel-Rem > .MuiButton-root {
+  color: white;
+  background: red;
+  text-transform: inherit;
+  border-radius: 5px;
+  margin-left: 25px;
+
+}
+
+.navPanel-Rem button {
+  color: white;
+  background-color: red;
+  margin-left:25px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+
+.react-responsive-modal-modal {
+   background-color: grey;
+   min-height: 500px !important;
+   
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+
+
+.modal-title > h5 {
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.modal-title > h5:hover {
+  color: #b92b27;
+}
+
+.modal-info {
+  align-items: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-info > p {
+  margin-left: 10px;
+  font-size: small;
+  color: gray;
+ 
+}
+
+.modal-info > .modal-scope {
+  display: flex;
+  align-content: center;
+  color: rgb(98, 98, 98);
+  padding: 5px;
+  margin-left: 10px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 33px;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.modal-Field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.modal-Field > .modal-fieldLink {
+  color: gray;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.modal-Field > .modal-fieldLink > input {
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+
+.modal-buttons {
+  display: flex;
+    width: fit-content;
+    align-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-right: 0px;
+    margin-left: auto;
+    width: 50%;
+}
+
+
+.modal-buttons > .cancle {
+  border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    width: 50%;
+    margin: 5px;
+}
+
+.modal-buttons > .cancle:hover {
+  color: white;
+  background-color:  #222;
+}
+
+.modal-buttons > .add {
+  border: none;
+  outline: none;
+  margin: 5px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 33px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.modal-buttons > .add:hover {
+  color: white;
+  background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .navPanel-icons {
+    display: none;
+  }
+
+  .navPanel-input {
+    display: none;
+  }
+}
+
+
+.material-icons.md-32 { 
+  font-size: 32px; 
+  align-items: center;
+  }
+
+  .movieRow {
+    margin-top: 15px;
+    text-align: center;
+    
+    
+  }
+
+  .smallPoster{
+    user-select: none;
+    max-height: 100px;
+  }
+
+  .moviesListCard {
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    background: #222;
+  }
+
+  .card {
+    background-color:#71797E !important;
+
+  }
+
+  .card-title {
+    color: white !important;
+  }
+
+  .modal-answer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    flex: 1;
+    width: 100%;
+    padding: 20px;
+  }
+
+.dropdown-toggle {
+  border: none !important;
+  background-color: inherit !important;
+  color  :black !important;
+}
+
+
+
