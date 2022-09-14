@@ -26,7 +26,7 @@ async function main() {
 
         //server is listening on port.
         app.listen(port, () => {
-            console.log('Server is running on port:' + port);
+            console.log('Server is now running on port:' + port);
 
         })
 
