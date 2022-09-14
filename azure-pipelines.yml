@@ -22,4 +22,4 @@ steps:
     npm install
   displayName: 'npm install'
 
-- script: ls
+- script: cd Backend && ls
