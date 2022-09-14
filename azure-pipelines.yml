@@ -18,6 +18,7 @@ steps:
 - script: ls
 
 - script: |
+    cd Backend
     npm install
   displayName: 'npm install'
 
