@@ -5,6 +5,8 @@ import SpacesController from './spaces.controller.js';
 
 const router = express.Router();
 
+
+
 router.route("/user/:id").get(UsersController.apiGetUserById);
 router.route("/user").post(UsersController.apiPostUser);
 router.route("/user").put(UsersController.apiUpdateUser);

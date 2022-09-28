@@ -1,0 +1,13 @@
+name: Installing Node
+run-name: ${{ github.actor }} is Installing Node
+on: [push]
+jobs:
+  install-node-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run:  echo $(node -v) 
+      
